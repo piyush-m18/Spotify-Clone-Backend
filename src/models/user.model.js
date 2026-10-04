@@ -13,8 +13,7 @@ const userSchema= new monngoose.Schema({
     },
     password:{
         type:String,
-        required:true,
-        unique:true
+        required:true
     },
     role:{
         type:String,
